@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+  <title>Dec2Bin</title>
+</head>
+<body>
+	<div class="datas">
+		<div class="container">
+			<h2>Dec2Bin</h2>
+			<p>
+				Decimal:
+				<input class="dados" type="text" name="decNum" id="decNum" >
+			</p>
+			<p>Binary: 
+				<input class="dados" type="text" name="binNum" id="binNum" readonly>
+			</p>
+			<input class="butao" type="submit" value="Converter" onclick="conversorDec()">
+		</div>
+		<div class="container1">
+			<h2>Bin2Dec</h2>
+			<p>
+				Binary: 
+				<input class="dados" type="text" name="binNum1" id="binNum1">
+			</p>
+			<p>
+				Decimal:
+				<input class="dados" type="text" name="decNum1" id="decNum1" readonly>
+			</p>
+			<input class="butao" type="submit" value="Converter" onclick="conversorBin()">
+		</div>
+	</div>
+	<script src="./conversor.js"></script>
+</body>
+</html>
