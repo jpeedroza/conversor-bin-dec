@@ -60,3 +60,25 @@ p {
   background-color: orangered;
 }
 
+@media only screen and (max-width: 600px){
+  .datas{
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .container,
+  .container1{
+    width: 200px;
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 768px){
+  .datas{
+    width: 500px;
+  }
+  .container,
+  .container1{
+    width: 200px;
+    height: 200px;
+  }
+}
+
